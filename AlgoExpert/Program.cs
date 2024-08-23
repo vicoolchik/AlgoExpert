@@ -1,8 +1,9 @@
 ﻿using System;
-using AlgoExpert.SortedSquaredArray;
+using AlgoExpert.TournamentWinner;
 
 public class Program {
     public static void Main(string[] args) {
-        Solutions.Run();
+        Solutions solutions = new Solutions();
+        solutions.Run(args);
     }
 }
