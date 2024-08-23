@@ -1,4 +1,4 @@
-namespace AlgoExpert;
+namespace AlgoExpert.TwoNumberSum;
 
 public class Solutions
 {

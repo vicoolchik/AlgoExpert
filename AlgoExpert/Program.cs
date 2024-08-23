@@ -1,5 +1,5 @@
 ﻿using System;
-using AlgoExpert;
+using AlgoExpert.ValidSubsequence;
 
 public class Program {
     public static void Main(string[] args) {
