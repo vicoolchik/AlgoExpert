@@ -1,4 +1,4 @@
-namespace AlgoExpert;
+namespace AlgoExpert.FindClosestValueInBst;
 
 public class Solutions
 {
