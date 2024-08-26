@@ -1,5 +1,5 @@
 ﻿using System;
-using AlgoExpert.BranchSums;
+using AlgoExpert.NodeDepths;
 
 public class Program {
     public static void Main(string[] args) {
