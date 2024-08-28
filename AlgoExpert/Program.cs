@@ -1,5 +1,5 @@
 ﻿using System;
-using AlgoExpert.MinimumWaitingTime;
+using AlgoExpert.ClassPhotos;
 
 public class Program {
     public static void Main(string[] args) {

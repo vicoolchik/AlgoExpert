@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgoExpert", "AlgoExpert\AlgoExpert.csproj", "{4083E837-39FF-42F2-BEED-FB17CC924DC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgoExpert", "AlgoExpert\AlgoExpert.csproj", "{5726F2E9-7162-4F81-99FF-628C063F8F6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4083E837-39FF-42F2-BEED-FB17CC924DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4083E837-39FF-42F2-BEED-FB17CC924DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4083E837-39FF-42F2-BEED-FB17CC924DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4083E837-39FF-42F2-BEED-FB17CC924DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5726F2E9-7162-4F81-99FF-628C063F8F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5726F2E9-7162-4F81-99FF-628C063F8F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5726F2E9-7162-4F81-99FF-628C063F8F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5726F2E9-7162-4F81-99FF-628C063F8F6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
