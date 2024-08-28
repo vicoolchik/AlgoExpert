@@ -1,5 +1,5 @@
 ﻿using System;
-using AlgoExpert.ClassPhotos;
+using AlgoExpert.TandemBicycle;
 
 public class Program {
     public static void Main(string[] args) {
