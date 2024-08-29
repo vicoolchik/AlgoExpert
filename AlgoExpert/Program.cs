@@ -1,5 +1,5 @@
 ﻿using System;
-using AlgoExpert.OptimalFreelancing;
+using AlgoExpert.RemoveDuplicatesFromLinkedList;
 
 public class Program {
     public static void Main(string[] args) {
