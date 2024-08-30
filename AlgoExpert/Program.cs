@@ -1,5 +1,5 @@
 ﻿using System;
-using AlgoExpert.RemoveDuplicatesFromLinkedList;
+using AlgoExpert.MiddleNode;
 
 public class Program {
     public static void Main(string[] args) {
