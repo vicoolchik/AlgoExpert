@@ -1,5 +1,5 @@
 ﻿using System;
-using AlgoExpert.MiddleNode;
+using AlgoExpert.GetNthFib;
 
 public class Program {
     public static void Main(string[] args) {
