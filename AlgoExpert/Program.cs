@@ -1,5 +1,5 @@
 ﻿using System;
-using AlgoExpert.BinarySearch;
+using AlgoExpert.RunLengthEncoding;
 
 public class Program {
     public static void Main(string[] args) {
