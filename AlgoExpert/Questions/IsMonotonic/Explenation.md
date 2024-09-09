@@ -21,7 +21,7 @@ The `IsMonotonic` method checks if an array of integers is monotonic by comparin
 3. **Traverse the Array:**
    - Starting from the third element, the method compares each pair of consecutive elements to check if the direction breaks (i.e., if the array switches from increasing to decreasing or vice versa).
    - If the direction is zero (i.e., the first two elements are equal), the method continues until it finds a non-zero direction.
-   
+
 4. **Check for Direction Break:**
    - The `breaksDirection` helper method determines if the current pair of elements breaks the expected direction. If it does, the array is not monotonic, and the method returns `false`.
 
