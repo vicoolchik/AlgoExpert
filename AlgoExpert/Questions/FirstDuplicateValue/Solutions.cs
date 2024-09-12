@@ -22,4 +22,34 @@ public class Solutions
         }
         return -1;
     }
+    public static int FirstDuplicateValueBruteForce(int[] array)
+    {
+        // O(n^2) time | O(1) space where n is the length of the array
+        var minimumSecondIndex = array.Length;
+        for (var i = 0; i < array.Length; i++)
+        {
+            for (var j = i + 1; j < array.Length; j++)
+            {
+                if (array[i] == array[j])
+                {
+                    minimumSecondIndex = Math.Min(minimumSecondIndex, j);
+                }
+            }
+        }
+        return minimumSecondIndex == array.Length ? -1 : array[minimumSecondIndex];
+    }
+    public static int FirstDuplicateValueOptimized(int[] array)
+    {
+        // O(n) time | O(n) space where n is the length of the array
+        var seen = new HashSet<int>();
+        foreach (var value in array)
+        {
+            if (seen.Contains(value))
+            {
+                return value;
+            }
+            seen.Add(value);
+        }
+        return -1;
+    }
 }

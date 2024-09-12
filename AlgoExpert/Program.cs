@@ -1,5 +1,5 @@
 ﻿using System;
-using AlgoExpert.MoveElementToEnd;
+using AlgoExpert.MergeOverlappingIntervals;
 
 public class Program {
     public static void Main(string[] args) {
