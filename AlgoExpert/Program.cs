@@ -1,5 +1,5 @@
 ﻿using System;
-using AlgoExpert.MergeOverlappingIntervals;
+using AlgoExpert.BestSeat;
 
 public class Program {
     public static void Main(string[] args) {
