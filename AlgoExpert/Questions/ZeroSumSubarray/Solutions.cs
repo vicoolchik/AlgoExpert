@@ -12,6 +12,7 @@ public class Solutions
         // O(n) time | O(n) space where n is the length of the array
         var sum = 0;
         var hashSet = new HashSet<int>();
+        hashSet.Add(0);
         foreach (var num in array)
         {
             sum += num;
