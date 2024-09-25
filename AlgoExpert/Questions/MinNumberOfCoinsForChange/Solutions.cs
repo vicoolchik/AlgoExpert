@@ -11,20 +11,29 @@ public class Solutions
     }
     public static int MinNumberOfCoinsForChange(int n, int[] denoms)
     {
-        // O(nd) time | O(n) space where n is the target amount and d is the number of denominations
-        var numOfCoins = new int[n + 1];
-        Array.Fill(numOfCoins, int.MaxValue);
+        int[] numOfCoins = new int[n + 1];
+        Array.Fill(numOfCoins, Int32.MaxValue);
         numOfCoins[0] = 0;
-        foreach (var denom in denoms)
+        int toCompare = 0;
+        foreach (int denom in denoms)
         {
-            for (int amount = 1; amount < n + 1; amount++)
+            for (int amount = 0; amount < numOfCoins.Length; amount++)
             {
                 if (denom <= amount)
                 {
-                    numOfCoins[amount] = Math.Min(numOfCoins[amount], numOfCoins[amount - denom] + 1);
+                    if (numOfCoins[amount - denom] == Int32.MaxValue)
+                    {
+                        toCompare = numOfCoins[amount - denom];
+                    }
+                    else
+                    {
+                        toCompare = numOfCoins[amount - denom] + 1;
+                    }
+                    numOfCoins[amount] = Math.Min(numOfCoins[amount], toCompare);
                 }
             }
         }
-        return numOfCoins[n] != int.MaxValue ? numOfCoins[n] : -1;
+        return numOfCoins[n] != Int32.MaxValue ? numOfCoins[n] : -1;
     }
+
 }
